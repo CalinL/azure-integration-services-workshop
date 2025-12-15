@@ -259,6 +259,8 @@ flowchart TD
     style ADF fill:#0078D4,color:#fff
 ```
 
+> 📘 **For detailed messaging guidance**, including when to use Service Bus queues vs topics, and comparisons with Event Hubs, see the **[Azure Messaging Services Decision Guide](./09-azure-messaging-guide.md)**.
+
 ## Getting Started
 
 ### Prerequisites
@@ -286,6 +288,7 @@ This workshop covers the following topics:
 5. **[Azure Functions](./05-azure-functions.md)** - Serverless compute
 6. **[Azure Data Factory](./06-azure-data-factory.md)** - Data integration
 7. **[Service Comparison Guide](./07-service-comparison.md)** - When to use each service
+8. **[Messaging Guide](./09-azure-messaging-guide.md)** - Complete decision guide for Azure messaging services (Service Bus vs Event Grid vs Event Hubs, Queues vs Topics)
 
 ---
 

@@ -37,13 +37,15 @@ graph TB
 | [06 - Data Factory](docs/06-azure-data-factory.md) | ETL/ELT and data pipeline orchestration |
 | [07 - Service Comparison](docs/07-service-comparison.md) | Decision framework for choosing the right service |
 | [08 - Sample Recommendations](docs/08-sample-recommendations.md) | Curated samples and reference implementations |
+| [09 - Messaging Guide](docs/09-azure-messaging-guide.md) | Complete decision guide for Azure messaging services (Service Bus, Event Grid, Event Hubs) |
 
 ## Quick Start
 
 1. Start with the [Overview](docs/00-azure-integration-services-overview.md) to understand integration fundamentals
 2. Explore individual services based on your use case
 3. Use the [Service Comparison](docs/07-service-comparison.md) guide to select the right tools
-4. Check [Sample Recommendations](docs/08-sample-recommendations.md) for hands-on examples
+4. Review the [Messaging Guide](docs/09-azure-messaging-guide.md) for detailed messaging service decisions
+5. Check [Sample Recommendations](docs/08-sample-recommendations.md) for hands-on examples
 
 ## License
 
