@@ -31,7 +31,7 @@ flowchart LR
   APIM["API Management<br/>(Gateway)"]
 
   subgraph BFFs
-    MBFF["Mobile BFF<br/>Azure Function"]
+    MBFF["Mobile BFF<br/>(Azure Function)"]
     WBFF["Web BFF<br/>(Azure Function)"]
     DBFF["Desktop BFF<br/>(Azure Function)"]
   end
