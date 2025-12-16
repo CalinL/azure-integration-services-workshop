@@ -22,8 +22,8 @@ Avoid it when:
 
 ```mermaid
 flowchart LR
-  Producer --> Blob[Blob Storage\n(payload)]
-  Producer --> SB[Service Bus Message\n(claim check: URL/id)]
+  Producer --> Blob["Blob Storage<br/>(payload)"]
+  Producer --> SB["Service Bus Message<br/>(claim check: URL/id)"]
   SB --> Consumer
   Consumer --> Blob
 ```

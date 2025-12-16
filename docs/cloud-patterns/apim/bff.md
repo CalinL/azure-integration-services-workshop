@@ -28,12 +28,12 @@ flowchart LR
     D[Desktop App]
   end
 
-  APIM[API Management\n(Gateway)]
+  APIM["API Management<br/>(Gateway)"]
 
   subgraph BFFs
-    MBFF[Mobile BFF\n(Azure Function)]
-    WBFF[Web BFF\n(Azure Function)]
-    DBFF[Desktop BFF\n(Azure Function)]
+    MBFF["Mobile BFF<br/>Azure Function"]
+    WBFF["Web BFF<br/>(Azure Function)"]
+    DBFF["Desktop BFF<br/>(Azure Function)"]
   end
 
   subgraph Backend

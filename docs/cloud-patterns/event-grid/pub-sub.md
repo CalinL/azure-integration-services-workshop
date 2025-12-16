@@ -22,10 +22,10 @@ Avoid it when:
 
 ```mermaid
 flowchart LR
-  P[Publisher\n(App/Service)] --> EG[Event Grid\nTopic]
-  EG --> S1[Subscriber 1\n(Logic App)]
-  EG --> S2[Subscriber 2\n(Azure Function)]
-  EG --> S3[Subscriber 3\n(Webhook/API)]
+  P["Publisher<br/>(App/Service)"] --> EG[Event Grid\nTopic]
+  EG --> S1["Subscriber 1<br/>(Logic App)"]
+  EG --> S2["Subscriber 2<br/>(Azure Function)"]
+  EG --> S3["Subscriber 3<br/>(Webhook/API)"]
 ```
 
 ---

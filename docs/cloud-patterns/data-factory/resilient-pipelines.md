@@ -38,7 +38,7 @@ ADF can act as the scheduler/supervisor when:
 
 ```mermaid
 flowchart LR
-  ADF[ADF Pipeline\nSupervisor] --> Jobs[Work items\n(partitions/batches)]
+  ADF[ADF Pipeline<br/>Supervisor] --> Jobs["Work items<br/>(partitions/batches)"]
   Jobs --> Exec1[Execution 1]
   Jobs --> Exec2[Execution 2]
   Jobs --> Exec3[Execution 3]

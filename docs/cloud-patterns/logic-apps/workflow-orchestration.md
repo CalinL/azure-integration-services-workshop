@@ -49,8 +49,8 @@ Logic Apps can participate as one of the event handlers, for example:
 
 ```mermaid
 flowchart LR
-  E1[Domain Event] --> A[Handler A\n(Logic App)]
-  E1 --> B[Handler B\n(Service)]
+  E1[Domain Event] --> A["Handler A<br/>(Logic App)"]
+  E1 --> B["Handler B<br/>(Service)"]
   A --> E2[Next Event]
   B --> E2
 ```

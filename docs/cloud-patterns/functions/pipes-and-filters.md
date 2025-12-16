@@ -10,12 +10,12 @@ Azure Functions is often used to implement filters, with messaging (Service Bus/
 
 ```mermaid
 flowchart LR
-  In[Input] --> P1[Pipe 1\n(queue/topic)]
-  P1 --> F1[Filter 1\nFunction]
+  In[Input] --> P1["Pipe 1<br/>(queue/topic)"]
+  P1 --> F1[Filter 1<br/>Function]
   F1 --> P2[Pipe 2]
-  P2 --> F2[Filter 2\nFunction]
+  P2 --> F2[Filter 2<br/>Function]
   F2 --> P3[Pipe 3]
-  P3 --> F3[Filter 3\nFunction]
+  P3 --> F3[Filter 3<br/>Function]
   F3 --> Out[Output]
 ```
 

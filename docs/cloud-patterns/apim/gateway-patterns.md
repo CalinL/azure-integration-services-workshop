@@ -114,7 +114,7 @@ Gateway aggregation can be implemented in a few ways:
 ```mermaid
 flowchart LR
   C[Client] --> APIM[API Management]
-  APIM --> AGG[Aggregation API\n(Azure Function / App Service)]
+  APIM --> AGG["Aggregation API<br/>(Azure Function / App Service)"]
   AGG --> S1[Service A]
   AGG --> S2[Service B]
   AGG --> S3[Service C]

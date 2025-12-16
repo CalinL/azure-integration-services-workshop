@@ -26,7 +26,7 @@ Avoid ACL when:
 
 ```mermaid
 flowchart LR
-  New[Modern Services] --> ACL[ACL\n(Logic App)]
+  New[Modern Services] --> ACL["ACL<br/>(Logic App)"]
   ACL --> Legacy[Legacy / Partner System]
 
   subgraph ACL Responsibilities
