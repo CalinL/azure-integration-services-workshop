@@ -39,6 +39,10 @@ graph TB
 | [08 - Sample Recommendations](docs/08-sample-recommendations.md) | Curated samples and reference implementations |
 | [09 - Messaging Guide](docs/09-azure-messaging-guide.md) | Complete decision guide for Azure messaging services (Service Bus, Event Grid, Event Hubs) |
 
+## Cloud Design Patterns
+
+Explore [Cloud Design Patterns for Azure Integration Services](docs/cloud-patterns/README.md) to learn how common architectural patterns apply to each service covered in this workshop.
+
 ## Quick Start
 
 1. Start with the [Overview](docs/00-azure-integration-services-overview.md) to understand integration fundamentals
